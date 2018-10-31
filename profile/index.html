@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Profile</title>
+	<link rel="stylesheet" href="style.css">
+	<!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>-->
+	<script 
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+		crossorigin="anonymous">
+	</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://bootswatch.com/4/simplex/bootstrap.min.css"/>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="card">
+
+					<div class="card-body">
+						<div class="card-title mb-4">
+							<div class="d-flex justify-content-start">
+								<div class="image-container">
+									<img src="syarif.jpg" id="imgProfile" style="width: 150px; height: 200px" class="img-thumbnail" />
+								</div>
+								<div class="userData ml-3">
+									<h2 class="d-block" style="font-size: 1.5rem; font-weight: bold"><a href="javascript:void(0);">Syarif</a></h2>
+									<h6 class="d-block"><a href="https://api.whatsapp.com/send?phone=6285691350625" target="_blank"><i class="fab fa-whatsapp"></i> 085691350625</a></h6>
+									<h6 class="d-block"><a href="https://t.me/abu_ruqayyah" target="_blank"><i class="fab fa-telegram-plane"></i> @abu_ruqayyah</a></h6>
+									<h6 class="d-block"><a href="https://listingpropertisyariah.com" target="_blank"><i class="fas fa-globe"></i> properti syariah</a></h6>
+								</div>
+								<div class="ml-auto">
+									<input type="button" class="btn btn-primary d-none" id="btnDiscard" value="Discard Changes" />
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-12">
+								<ul class="nav nav-tabs mb-4" id="myTab" role="tablist">
+									<li class="nav-item">
+										<a class="nav-link active" id="basicInfo-tab" data-toggle="tab" href="#basicInfo" role="tab" aria-controls="basicInfo" aria-selected="true">Basic Info</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" id="bio-tab" data-toggle="tab" href="#bio" role="tab" aria-controls="bio" aria-selected="false">Bio</a>
+									</li>
+								</ul>
+								<div class="tab-content ml-1" id="myTabContent">
+									<div class="tab-pane fade show active" id="basicInfo" role="tabpanel" aria-labelledby="basicInfo-tab">
+										<div class="row">
+											<div class="col-sm-3 col-md-2 col-5">
+												<label style="font-weight:bold;">Nama Lengkap</label>
+											</div>
+											<div class="col-md-8 col-6">
+												Akhmad Syarifudin
+											</div>
+										</div>
+										<hr />
+										<div class="row">
+											<div class="col-sm-3 col-md-2 col-5">
+												<label style="font-weight:bold;">Pekerjaan</label>
+											</div>
+											<div class="col-md-8 col-6">
+												Staf di salah satu instansi... ngga perlu sebut merk lah ya :)
+											</div>
+										</div>
+										<hr />
+										<div class="row">
+											<div class="col-sm-3 col-md-2 col-5">
+												<label style="font-weight:bold;">Domisili</label>
+											</div>
+											<div class="col-md-8 col-6">
+												Bekasi
+											</div>
+										</div>
+										<hr />
+										<div class="row">
+											<div class="col-sm-3 col-md-2 col-5">
+												<label style="font-weight:bold;">Email</label>
+											</div>
+											<div class="col-md-8 col-6">
+												jl.pesut1no.4@gmail.com
+											</div>
+										</div>
+										<hr />
+										<div class="row">
+											<div class="col-sm-3 col-md-2 col-5">
+												<label style="font-weight:bold;">Pendidikan</label>
+											</div>
+											<div class="col-md-8 col-6">
+												Bukan sarjana :)
+											</div>
+										</div>
+										<hr />
+
+									</div>
+									<div class="tab-pane fade" id="bio" role="tabpanel" aria-labelledby="ConnectedServices-tab">
+										Karyawan, kadang jualan juga kalau lagi senggang. Sekarang lagi belajar cloud computing :)
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
